@@ -1,0 +1,162 @@
+* {
+  /* padding: 0; */
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/bg.jpg");
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+  background-position: center center;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.64;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  height: 100px;
+  position: relative;
+  z-index: 10;
+}
+
+#Sign {
+  background-color: red;
+  color: white;
+  height: 32px;
+  width: 76.9px;
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  
+
+}
+#s1{
+  height: 32px;
+  width: 76.9px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(22, 22, 22, 0.7);
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  border-color: rgba(128, 128, 128, 0.7);
+}
+.center {
+  display: flex;
+  color: white;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 22px;
+  text-align: center;
+  z-index: 20;
+}
+.center :first-child {
+  font-weight: 900;
+  font-size: 48px;
+  font-family: "Martel Sans", system-ui;
+  font-style: normal;
+}
+.center :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+}
+#mt {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  z-index: 20;
+  background: rgba(22, 22, 22, 0.7);
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  border-color: rgba(128, 128, 128, 0.7);
+}
+#bt1 {
+  background-color: red;
+  color: white;
+  font-size: small;
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  z-index: 20;
+}
+.seperate{
+  display: flex;
+  flex-direction: row;
+  height: 81px;
+  align-items: center;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgb(167 64 231 / 58%) 80%, rgba(0, 0, 0, 0.1) 100%), #000000;
+}
+.t3{
+  color: white;
+  display:flex;
+  font-weight: 500;
+  font-size: 48px;
+  font-family: "Martel Sans", system-ui;
+  font-style: normal;
+  margin-left: 5%;
+  
+}
+.choice{
+  display: flex;
+  flex-direction: row;
+  color:white;
+  align-items: left;
+  justify-content: left;  
+  margin-left: 5.8%;
+  gap: 2%;
+  
+}
+#s2 {
+  height: 32px;
+  width: 76.9px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(22, 22, 22, 0.7);
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  border-color: rgba(128, 128, 128, 0.7);
+}
+#s3 {
+  height: 32px;
+  width: 76.9px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(22, 22, 22, 0.7);
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  border-color: rgba(128, 128, 128, 0.7);
+}
+.faq .box{
+  display: flex;
+  color: white;
+  background: linear-gradient(to left, #190A05, #270505);
+  
+  padding:34px;
+}

@@ -12,7 +12,7 @@ body {
   position: relative;
   background-position: center center;
 }
-.main .box {
+.main .box0 {
   height: 80vh;
   width: 100%;
   opacity: 0.64;
@@ -153,10 +153,55 @@ nav {
   border-width: 0.0625rem;
   border-color: rgba(128, 128, 128, 0.7);
 }
+.faq h2{
+  text-align: center;
+  font-family: "Martel Sans", system-ui;
+  font-weight: 700;
+  padding: 34px;
+}
+.faq{
+  background-color: #3c383822;
+  color: white;
+}
 .faq .box{
   display: flex;
   color: white;
   background: linear-gradient(to left, #190A05, #270505);
-  
-  padding:34px;
+  padding:20px;
+  max-width: 40vw;
+  margin:34px auto;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: "Martel Sans", system-ui;
+  font-size: medium;
+}
+
+  .box:hover{
+  background:  linear-gradient(to left, #490b5c, #270505);
+  transition: all 2s ease-out;
+}
+footer{
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+.footer{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  padding: 23px;
+ 
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+}
+.footer a{
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.question
+{
+  padding: 25px 0;
 }
